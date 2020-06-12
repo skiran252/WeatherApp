@@ -6,7 +6,8 @@ const weatherform = document.querySelector('form')
 weatherform.addEventListener('submit',(e)=>{
     e.preventDefault()
     const location = weatherform.address.value
-    fetch('http://localhost:3000/weather?address='+location).then((response) => {
+
+    fetch('/weather?address='+location).then((response) => {
         const messageholder = document.getElementById('Message')
         const placeinfo     = document.getElementById('placeinfo')
         const tempinfo      = document.getElementById('tempinfo')
