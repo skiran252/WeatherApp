@@ -1,0 +1,40 @@
+body {
+    margin:0 auto;
+    color:#333333;
+    font-family: arial, sans-serif;
+    max-width: 60%;
+    padding:0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    border-top:1px solid #eeeeee;
+    margin-top: 16px;
+    padding:16px 0;
+    background:0;
+    color:#888888;
+    padding:16px;
+}
+header {
+    margin-top:16px;
+    margin-bottom:48px;
+}
+h1 {
+    font-size:78px;
+    margin-bottom:10px;
+}
+header a {
+    letter-spacing: normal;
+    color:#888888;
+    margin-right:16px;
+    text-decoration: none;
+    display:inline-block;
+}
+.portrait {
+    width:250px;
+}
+.main-content {
+    flex-grow: 1;
+}
